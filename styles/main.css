@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Amatica SC');
+@import url('https://fonts.googleapis.com/css?family=Gafata');
+header {
+  font-family: Cinzel;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  z-index: 100;
+
+}
+
+header h2  {
+  float: left;
+  margin-left: 8%;
+  line-height: 60px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color:red;
+
+}
+
+header nav ul {
+  padding-right: 7%;
+  float: right;
+  line-height: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+header nav li {
+  display: inline;
+  font-size: 0.9em;
+}
+
+header nav a{
+  color: white;
+  padding: 10px;
+}
+
+main {
+  font-family: Gafata;
+  margin-top: 50px;
+  position: relative;
+  z-index: 5;
+  background-color: black;
+}
+
+main section:nth-of-type(1) {
+  height: 170px;
+  line-height: 170px;
+  padding: 10px;
+  margin-bottom: 0px;
+  background-image:    url(../assets/hero.jpg);
+  background-size: 100% ;
+  background-repeat:   no-repeat;
+  background-position: 100% 50%;
+  color: white;
+}
+
+main section:nth-of-type(1) h1 {
+  font-family: 'Cinzel';
+  font-size: 3em;
+  color: #ffb31a;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  2px 2px 0 #000;
+  font-weight: bolder;
+  float:right;
+  margin-right: 5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+main section:nth-of-type(2){
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: black;
+  align-content: center;
+  text-align: center;
+}
+
+main section:nth-of-type(2) h2{
+  margin-top: 0px;
+  font-family: 'Amatica SC';font-size: 2em;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+main section div {
+  margin-left: 15%;
+  margin-right: 13%;
+}
+main section article {
+  background-color: black;
+  width:22%;
+  padding-top:0px;
+  padding-bottom: 0px;
+  border-radius:15px;
+  margin:  10px;
+  float: left;
+  display: inline-block;
+
+}
+
+main section article h3{
+  background-color: lightgray;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 5px 10px  5px;
+  color: black;
+  margin: 0px;
+  height: 40px;
+}
+
+main section article p:nth-of-type(1){
+  background-color: #595959;
+  color: lightgray;
+  height: 200px;
+  padding: 10px;
+  margin: 0px;
+}
+
+main section article p:nth-of-type(2){
+  background-color: #595959;
+  height: 30px;
+  padding: 20px;
+  margin: 0px;
+  border-radius: 0 0 10px 10px;
+}
+main section article a{
+  background-color: black;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+main section:nth-of-type(3){
+  clear:left;
+  background-color: black;
+  float:left;
+  padding: 9%;
+  position: relative;;
+  max-height: 50%
+}
+
+main section:nth-of-type(3) h2{
+  font-family: Amatica SC;
+  font-size: 2em;
+  color:white;
+  clear:left;
+  background-color: black;
+  float:left;
+}
+
+main section:nth-of-type(3) p{
+  color: white;
+  clear:left;
+  background-color: black;
+  float:left;
+  max-width: 50%;
+  margin-right: 5%;
+}
+
+main section:nth-of-type(3) img{
+  max-height: 200px;
+  max-width: 40%;
+  position: absolute;
+  top: 0; right: 0; bottom: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: gray;
+  margin: auto;
+  margin-right: 15%;
+  margin-left: 5%;
+  padding-right: 0px;
+  max-width: 40%;
+  height: auto;
+}
+
+#everybody {
+  font-family: Cinzel;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  2px 2px 0 #000;
+  clear: left;
+  text-align: center;
+  background-color: black;
+  color: white;
+  vertical-align: middle;;
+  font-size: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0px;
+  background-image:    url(../assets/everybody.jpg);
+  background-size: cover;
+  background-repeat:   no-repeat;
+  background-position: center;
+}
+footer {
+  display: inline-block;
+  background-color: black;
+  position: relative;
+  padding: 2%;
+}
+
+footer div:nth-of-type(1) {
+  float: left;
+  margin: 2em;
+  display: inline-block;
+  width: 45%;
+}
+
+footer div:nth-of-type(2) {
+  float: left;
+  margin: 2em;
+  display: inline-block;
+  width: 30%;
+}
+
+footer h4 {
+  color: white;
+  float:left;
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: .7em;
+}
+
+#disclaimer {
+  margin: 0px;
+  font-size: .7em;
+  color: white;
+}
+
+
+footer nav li{
+  color: white;
+}
+
+
+footer nav a {
+  color: white;
+  font-size: .9em;
+}
